@@ -11,7 +11,7 @@ const About = () => {
             About Me
           </h1>
           <p className="text-xl text-muted-foreground animate-slide-up">
-            Passionate developer with a love for creating innovative solutions
+            Dedicated full-stack developer committed to building impactful, user-centric web applications.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ const About = () => {
               <div className="w-full h-full bg-muted flex items-center justify-center">
                 <div className="text-center">
                   <div className="w-24 h-24 bg-primary rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-3xl font-bold text-primary-foreground">JD</span>
+                    <span className="text-3xl font-bold text-primary-foreground">BJ</span>
                   </div>
                   <p className="text-muted-foreground">Professional Photo</p>
                 </div>
@@ -34,25 +34,19 @@ const About = () => {
           {/* About Content */}
           <div className="space-y-6 animate-slide-up">
             <h2 className="text-3xl font-bold text-foreground">
-              Hi, I'm John Developer
+               Hi, I'm Babishek J
             </h2>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a passionate PHP & Laravel developer with a strong foundation in full-stack 
-              web development. My journey in software development began with a curiosity about 
-              how digital products work, and it has evolved into a career focused on creating 
-              meaningful and efficient solutions.
+              I'm a Laravel developer with over a year of experience building efficient, scalable web applications. My journey began with a passion for understanding how digital systems work, and has grown into a professional pursuit of delivering high-quality software solutions.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I believe in writing clean, maintainable code and staying up-to-date with the 
-              latest industry trends and best practices. My goal is to build applications 
-              that not only function perfectly but also provide an exceptional user experience.
+              I specialize in back-end development using Laravel and PostgreSQL, with strong front-end experience in React, Tailwind CSS, and jQuery. I'm committed to clean code, agile collaboration, and continuous learning.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              When I'm not coding, I enjoy exploring new technologies, contributing to 
-              open-source projects, and sharing knowledge with the developer community.
+              Outside of coding, I enjoy exploring new tools and frameworks, contributing to open-source projects, and staying active in the tech community.
             </p>
           </div>
         </div>
@@ -68,22 +62,25 @@ const About = () => {
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
                 <div>
                   <h3 className="text-2xl font-bold text-foreground mb-2">
-                    Full Stack Developer
+                    Laravel Developer
                   </h3>
                   <div className="flex items-center gap-2 text-primary font-semibold mb-2">
                     <Building className="h-4 w-4" />
-                    Lashron Technology
+                    <a href="http://lashron.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                      Lashron Technology
+                    </a>
                   </div>
                 </div>
                 <div className="flex flex-col md:items-end gap-2">
                   <div className="flex items-center gap-2 text-muted-foreground">
                     <Calendar className="h-4 w-4" />
-                    1.5 Years (2022 - Present)
+                     <span>May 2023 – Present</span>
                   </div>
                   <div className="flex items-center gap-2 text-muted-foreground">
                     <MapPin className="h-4 w-4" />
-                    Remote
+                    On-site (Chennai Office)
                   </div>
+                  
                 </div>
               </div>
 
@@ -91,44 +88,84 @@ const About = () => {
                 <h4 className="text-lg font-semibold text-foreground">
                   Key Responsibilities & Achievements:
                 </h4>
-                
-                <ul className="space-y-3 text-muted-foreground">
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                    <span>
-                      Developed and maintained multiple web applications using Laravel framework, 
-                      resulting in improved system performance and user satisfaction
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                    <span>
-                      Implemented responsive front-end interfaces using React and Tailwind CSS, 
-                      ensuring optimal user experience across all device types
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                    <span>
-                      Collaborated with cross-functional teams to deliver projects on time and 
-                      within budget, maintaining high code quality standards
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                    <span>
-                      Optimized database queries and application performance, resulting in 
-                      40% faster page load times
-                    </span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                    <span>
-                      Mentored junior developers and contributed to code reviews, 
-                      promoting best practices and knowledge sharing
-                    </span>
-                  </li>
-                </ul>
+                  <ul className="space-y-3 text-muted-foreground">
+                    <li className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                      <span>
+                        Developed and maintained backend modules for IGCAR Kalpakam’s estimate and billing packages using Laravel and PostgreSQL, streamlining data management and project workflows.
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                      <span>
+                        Designed responsive front-end interfaces using HTML, CSS, and Bootstrap to ensure accessibility across devices and browsers.
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                      <span>
+                        Collaborated with engineering and documentation teams to build cost estimation and rate analysis tools for electrical, mechanical, and civil engineering modules.
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                      <span>
+                        Improved system performance by optimizing database queries and implementing clean, maintainable code practices.
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                      <span>
+                        Contributed to project documentation and provided support in QA testing, helping to ensure smooth deployment and ongoing usability.
+                      </span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                      <span>
+                        Visited the IGCAR Kalpakkam client site regularly to diagnose and resolve critical system issues, working directly with end users to ensure optimal functionality and performance.
+                      </span>
+                    </li>
+                  </ul>
+                 <h4 className="text-lg font-semibold text-foreground mb-6">Tech Stack:</h4>
+                  <ul className="space-y-3 text-muted-foreground">
+                      <li className="flex items-start gap-3">
+                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                        <span>
+                          Backend: Laravel (PHP), Core PHP, Core Java, Java (Spring Boot) 
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                        <span>
+                          Frontend:React.js, jQuery, HTML5, CSS3
+                        </span>
+                      </li><li className="flex items-start gap-3">
+                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                        <span>
+                          Database: PostgreSQL, MySQL
+                        </span>
+                      </li><li className="flex items-start gap-3">
+                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                        <span>
+                          Version Control System:  Git & GitHub
+                        </span>
+                      </li><li className="flex items-start gap-3">
+                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                        <span>
+                          Container Technologies: Docker, Kubernetes
+                        </span>
+                      </li><li className="flex items-start gap-3">
+                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                        <span>
+                          Operating Systems: Windows & Linux
+                        </span>
+                      </li><li className="flex items-start gap-3">
+                        <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                        <span>
+                           Cloud: AWS (Amazon Web Services)
+                        </span>
+                      </li>
+                    </ul>
               </div>
             </CardContent>
           </Card>

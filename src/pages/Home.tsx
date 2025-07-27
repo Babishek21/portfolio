@@ -18,32 +18,52 @@ const Home = () => {
         {/* Content */}
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            <span className="block">Hello, I'm</span>
-            <span className="block text-primary-glow">John Developer</span>
+            <span className="block">Hi, I'm</span>
+            <span className="block text-primary-glow">Babishek J</span>
           </h1>
           
-          <p className="text-xl md:text-2xl mb-4 text-slate-light animate-slide-up">
-            PHP & Laravel Developer
+          {/* <p className="text-xl md:text-2xl mb-4 text-slate-light animate-slide-up">
+            Laravel Developer | Full-Stack Web Developer
+          </p> */}
+          <p className="text-xl md:text-2xl mb-4 text-slate-light animate-slide-up text-white">
+            Full-Stack Web Developer (Laravel, React, PostgreSQL)
           </p>
           
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto text-slate-light animate-slide-up">
-            Passionate full-stack developer with expertise in building robust web applications 
-            using modern technologies. I create efficient, scalable solutions that deliver 
-            exceptional user experiences.
+           A full-stack developer with over 1 year of experience building robust Laravel and PostgreSQL-based web applications.
+           Skilled in crafting clean, efficient, and scalable solutions using PHP, React, and modern frontend technologies.
           </p>
-          
+          <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto text-slate-light animate-slide-up">
+            Currently working at Lashron on Laravel-based estimation & billing systems.
+          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-scale-in">
-            <Button asChild size="lg" className="bg-primary hover:bg-primary-glow transition-all duration-300 shadow-glow">
+            <Button asChild size="lg" className="bg-primary hover:bg-white/10 transition-all duration-300 shadow-glow">
               <Link to="/projects">
                 View My Work
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            
-            <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/10 transition-all duration-300">
+            <Button variant="outline" size="lg" className="border-white/20 text-black hover:bg-white/10 transition-all duration-300" asChild>
+              <a href="/assets/BABISHEK-J-Resume.pdf" target="_blank" rel="noopener noreferrer" download>
+                <Download className="mr-2 h-5 w-5" />
+                Download CV
+              </a>
+            </Button>
+            <Button variant="outline" size="lg" className="border-white/20 text-black hover:bg-white/10 transition-all duration-300" asChild>
+              <a href="/assets/BABISHEK-J-Resume.pdf" target="_blank" rel="noopener noreferrer">
+                View Resume
+              </a>
+            </Button>
+            {/* <Button variant="outline" size="lg" className="border-white/20 text-black hover:bg-white/10 transition-all duration-300" asChild>
+              <a href="/assets/BABISHEK-J-Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <Download className="mr-2 h-5 w-5" />
+                View Resume
+              </a>
+            </Button> */}
+            {/* <Button variant="outline" size="lg" className="bg-primary hover:bg-primary-glow transition-all duration-300 shadow-glow">
               <Download className="mr-2 h-5 w-5" />
               Download CV
-            </Button>
+            </Button> */}
           </div>
         </div>
 
@@ -70,18 +90,25 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
               <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-white">1.5</span>
+                <span className="text-2xl font-bold text-white">1+</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Years Experience</h3>
               <p className="text-muted-foreground">Working with modern web technologies and frameworks</p>
             </div>
-
+            
+            {/* <div className="text-center p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
+              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-white">2+</span>
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Govt. Office & Internal Projects</h3>
+              <p className="text-muted-foreground">Includes web-based estimation and billing systems for IGCAR Kalpakkam and internal tools.</p>
+            </div> */}
             <div className="text-center p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
               <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-white">5+</span>
+                <span className="text-2xl font-bold text-white">2+</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Projects Completed</h3>
-              <p className="text-muted-foreground">From concept to deployment, delivering quality solutions</p>
+             <p className="text-muted-foreground">Delivering high-quality web applications using modern tools and technologies</p>
             </div>
 
             <div className="text-center p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
@@ -102,7 +129,7 @@ const Home = () => {
             Ready to Work Together?
           </h2>
           <p className="text-xl mb-8 text-primary-foreground/90">
-            Let's discuss your next project and bring your ideas to life.
+            Open to exciting projects and collaborations. Let’s build something exceptional together.
           </p>
           <Button asChild size="lg" variant="secondary" className="hover:shadow-glow transition-all duration-300">
             <Link to="/contact">

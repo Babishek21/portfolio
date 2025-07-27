@@ -80,42 +80,40 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "john.developer@example.com",
-      href: "mailto:john.developer@example.com"
+      value: "babishek21@gmail.com",
+      href: "mailto:babishek21@gmail.com"
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 91505 35220",
+      href: "tel:+919150535220"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "Remote / Available Worldwide",
+      value: "Kanyakumari, Tamil Nadu",
       href: null
     }
   ];
 
   const socialLinks = [
-    {
-      name: "GitHub",
-      icon: Github,
-      url: "https://github.com/johndeveloper",
-      color: "hover:text-gray-900"
-    },
-    {
-      name: "LinkedIn",
-      icon: Linkedin,
-      url: "https://linkedin.com/in/johndeveloper",
-      color: "hover:text-blue-600"
-    },
-    {
-      name: "Email",
-      icon: Mail,
-      url: "mailto:john.developer@example.com",
-      color: "hover:text-red-600"
-    }
+   {
+    name: "GitHub",
+    icon: Github,
+    url: "https://github.com/Babishek-Git"
+  },
+  {
+    name: "LinkedIn",
+    icon: Linkedin,
+    url: "https://www.linkedin.com/in/babishek-j-540665283",
+    color: "hover:text-blue-600"
+  },
+  {
+    name: "Email",
+    icon: Mail,
+    url: "mailto:babishek21@gmail.com",
+  }
   ];
 
   return (
@@ -127,7 +125,7 @@ const Contact = () => {
             Get In Touch
           </h1>
           <p className="text-xl text-muted-foreground animate-slide-up">
-            Let's discuss your project and bring your ideas to life
+            Open to freelance and full-time roles — let’s work together to build something impactful.
           </p>
         </div>
 
@@ -176,7 +174,7 @@ const Contact = () => {
                     <Textarea
                       id="message"
                       name="message"
-                      placeholder="Tell me about your project or how I can help you..."
+                      placeholder="Tell me about your project and how I can help you..."
                       rows={6}
                       value={formData.message}
                       onChange={handleChange}
@@ -284,8 +282,8 @@ const Contact = () => {
                   <span className="text-sm font-medium text-green-700">Available for new projects</span>
                 </div>
                 <p className="text-muted-foreground text-sm">
-                  I'm currently accepting new freelance projects and full-time opportunities. 
-                  Feel free to reach out to discuss your requirements.
+                  Actively seeking freelance or full-time roles as a Laravel, Java, or React developer.
+                  Feel free to reach out to discuss your project or opportunity.
                 </p>
               </CardContent>
             </Card>
@@ -296,24 +294,24 @@ const Contact = () => {
                 <h3 className="text-lg font-bold text-foreground mb-3">
                   What to Expect
                 </h3>
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-primary rounded-full" />
-                    Response within 24 hours
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-primary rounded-full" />
-                    Free consultation call
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-primary rounded-full" />
-                    Detailed project proposal
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <div className="w-2 h-2 bg-primary rounded-full" />
-                    Flexible communication
-                  </li>
-                </ul>
+               <ul className="space-y-2 text-sm text-muted-foreground">
+                <li className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-primary rounded-full" />
+                  Response within 24 hours
+                </li>
+                <li className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-primary rounded-full" />
+                  Free intro call available
+                </li>
+                <li className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-primary rounded-full" />
+                  Clear timeline and proposal
+                </li>
+                <li className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-primary rounded-full" />
+                  Communication via email, call, or WhatsApp
+                </li>
+              </ul>
               </CardContent>
             </Card>
           </div>

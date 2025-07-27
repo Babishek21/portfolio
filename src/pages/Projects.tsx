@@ -5,13 +5,24 @@ import { ExternalLink, Github, Calendar } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
+      {
+      title: "e-Estimator – Mechanical & Electrical",
+      description:
+        "A government project for IGCAR Kalpakkam. Built a web-based estimation and rate analysis system for civil and electrical works using Laravel and PostgreSQL. Features include tender generation, sanction management, and amendment workflows.",
+      image: "/assets/e-estimator.png", // Ensure this image exists in your public/assets folder
+      technologies: ["HTML", "CSS", "Bootstrap", "Laravel", "PostgreSQL"],
+      githubUrl: "", // Keep blank if private
+      demoUrl: "",   // Leave blank if no live link
+      date: "2025",
+      featured: true,
+    },
     {
-      title: "E-Commerce Platform",
-      description: "A full-featured e-commerce platform with user authentication, product management, cart functionality, and payment integration. Built with Laravel backend and React frontend.",
-      image: "/api/placeholder/400/250",
-      technologies: ["Laravel", "React", "MySQL", "Tailwind CSS", "Stripe API"],
-      githubUrl: "https://github.com/johndeveloper/ecommerce-platform",
-      demoUrl: "https://ecommerce-demo.example.com",
+      title: "Schedule of Rates (SOR) – Civil, Electrical & Mechanical",
+      description: "A government-based web application developed to manage and determine the rates of civil, electrical, and mechanical works. It calculates item-wise costs based on material, labor, and overhead factors. The system includes rate analysis, item master management, and revision workflows.",
+      image: "/assets/sor-system.png", // Replace with actual image path
+      technologies: ["Laravel", "PostgreSQL", "PHP", "MySQL", "HTML", "CSS"],
+      githubUrl: "", // Leave blank if it's a private/government project
+      demoUrl: "",   // Leave blank if not available
       date: "2024",
       featured: true
     },
@@ -24,6 +35,16 @@ const Projects = () => {
       demoUrl: "https://taskmanager-demo.example.com",
       date: "2023",
       featured: true
+    },
+    {
+      title: "Blog Content Management",
+      description: "A modern blogging platform with rich text editor, category management, user roles, and SEO optimization. Features include comment system and social media integration.",
+      image: "/api/placeholder/400/250",
+      technologies: ["Laravel", "Vue.js", "MySQL", "Redis"],
+      githubUrl: "https://github.com/johndeveloper/blog-cms",
+      demoUrl: "https://blog-demo.example.com",
+      date: "2023",
+      featured: false
     },
     {
       title: "Blog Content Management",
