@@ -90,7 +90,7 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
               <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-white">1+</span>
+                <span className="text-2xl font-bold text-white">2+</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Years Experience</h3>
               <p className="text-muted-foreground">Working with modern web technologies and frameworks</p>
