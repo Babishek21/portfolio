@@ -30,7 +30,7 @@ const Home = () => {
           </p>
           
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto text-slate-light animate-slide-up">
-           A full-stack developer with over 1 year of experience building robust Laravel and PostgreSQL-based web applications.
+           A full-stack developer with over 2+ year of experience building robust Laravel and PostgreSQL-based web applications.
            Skilled in crafting clean, efficient, and scalable solutions using PHP, React, and modern frontend technologies.
           </p>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto text-slate-light animate-slide-up">
